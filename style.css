@@ -1,0 +1,43 @@
+body{
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/ab15b351652435.58f5cd2d48800.jpg);
+}
+.navbar-brand img{
+    position: absolute;
+    width: 100px;
+    top: 5px;
+}
+.navbar-nav a{
+    color: white;
+    margin-left: 100px;
+}
+.pays img{
+    width: 300px;
+    height: 250px;
+}
+.payscontent{
+    padding: 30px;
+    background-color: brown;
+    margin-top: 100px;
+    border-radius: 10px;
+    border-style: double;
+}
+.pays{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.pays h6{
+    text-align: center;
+    color: white;
+    background-color: rgba(165, 42, 42, 0.637);
+    position: relative;
+    bottom: 100px;
+    padding: 10px;
+}
+@media screen and (max-width : 959px) {
+    .pays a img{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}

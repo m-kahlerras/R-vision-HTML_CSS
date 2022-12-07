@@ -1,0 +1,60 @@
+body{
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/ab15b351652435.58f5cd2d48800.jpg);
+}
+.navbar-brand img{
+    position: absolute;
+    width: 100px;
+    top: 5px;
+}
+.navbar-nav a{
+    color: white;
+    margin-left: 100px;
+}
+.indoflag{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.indoflag img{
+    width: 470px;
+}
+
+.text-indo p{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+    border-style: outset;
+    border-radius: 10px;
+}
+.inegalite{
+    display: flex;
+    justify-content: center;
+}
+.inegalite img{
+    display: flex;
+    justify-content: center;
+    width: 460px;
+}
+
+table , th , td{
+    text-align: center;
+    border: 1px solid #666;
+    color: white;
+  }
+table th{
+    background-color: #666;
+    border:1px solid white ;
+}
+table td{
+    background-color: rgb(0, 0, 0);
+    border:1px solid white ;
+}
+@media screen and (max-width : 991px) {
+    .inegalite{
+        margin-bottom: 20px;
+    }
+}
